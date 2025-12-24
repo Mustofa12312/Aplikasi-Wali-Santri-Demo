@@ -59,12 +59,12 @@ class _ClassesPageState extends State<ClassesPage> {
                 ),
                 const SizedBox(height: 12),
                 Text(
-                  'Wali/Ustadz: (dummy)',
+                  'Wali/Ustadz: (Ust Nawahdi)',
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 const SizedBox(height: 6),
                 Text(
-                  'Jadwal: (dummy)',
+                  'Jadwal: (Setiap Hari Senin dan Rabu, 15.30 - 17.00)',
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
               ],

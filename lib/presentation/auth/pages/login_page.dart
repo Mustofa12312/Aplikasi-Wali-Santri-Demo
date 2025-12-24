@@ -130,13 +130,13 @@ class _LoginPageState extends State<LoginPage> {
 
                   const SizedBox(height: 8),
 
-                  SizedBox(
-                    width: double.infinity,
-                    child: OutlinedButton(
-                      onPressed: () => context.go('/app'),
-                      child: const Text('Masuk sebagai Demo'),
-                    ),
-                  ),
+                  // SizedBox(
+                  //   width: double.infinity,
+                  //   child: OutlinedButton(
+                  //     onPressed: () => context.go('/app'),
+                  //     child: const Text('Masuk sebagai Demo'),
+                  //   ),
+                  // ),
                 ],
               ),
             ),

@@ -35,14 +35,24 @@ class _SplashPageState extends State<SplashPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              width: 88,
-              height: 88,
+              width: 92,
+              height: 92,
+              padding: const EdgeInsets.all(14),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(24),
-                color: cs.onSurface.withOpacity(0.06),
+                color: cs.surface,
+                borderRadius: BorderRadius.circular(26),
+                border: Border.all(color: cs.outline),
+                boxShadow: [
+                  BoxShadow(
+                    color: cs.onSurface.withOpacity(0.08),
+                    blurRadius: 18,
+                    offset: const Offset(0, 10),
+                  ),
+                ],
               ),
-              child: Icon(Icons.school_rounded, size: 40, color: cs.onSurface),
+              child: Image.asset('assets/images/logo.png', fit: BoxFit.contain),
             ),
+
             const SizedBox(height: 16),
             Text(
               AppStrings.appName,

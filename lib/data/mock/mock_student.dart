@@ -23,12 +23,12 @@ class MockStudent {
 class MockStudentData {
   static const student = MockStudent(
     id: 'ST-001',
-    name: 'Ahmad Mustofa',
+    name: 'Mustofa',
     nis: '202312345',
     room: 'Asrama Umar Bin Khattab',
-    generalClass: 'SMP Kelas 2',
-    religiousClass: 'Diniyah Wustho',
+    generalClass: 'S1 Sarjana Hukum',
+    religiousClass: '2 Aliyah',
     quranClass: 'Halaqah Al-Baqarah',
-    guardianName: 'Bapak Mustofa',
+    guardianName: 'Bpk. Ahmad Mustofa',
   );
 }

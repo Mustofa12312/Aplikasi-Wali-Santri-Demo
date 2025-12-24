@@ -18,21 +18,21 @@ class MockAnnouncementData {
       id: 'ANN-001',
       title: 'Libur bulan Puasa',
       content: 'Kegiatan belajar mengajar diliburkan Pada bulan puasa.',
-      date: DateTime(2025, 9, 14),
+      date: DateTime(2025, 12, 14),
     ),
     MockAnnouncement(
       id: 'ANN-002',
       title: 'Pembayaran SPP',
       content:
           'Diharapkan wali santri melakukan pembayaran SPP sebelum tanggal 10 setiap bulan.',
-      date: DateTime(2025, 9, 5),
+      date: DateTime(2025, 12, 5),
     ),
     MockAnnouncement(
       id: 'ANN-003',
       title: 'Jadwal Kegiatan Jumat',
       content:
-          'Kegiatan muhadhoroh akan dilaksanakan setiap Jumat malam setelah Isya.',
-      date: DateTime(2025, 9, 2),
+          "Kegiatan Maulid Dhiba'e akan dilaksanakan setiap Jumat malam setelah Isya. Dengan tujuan memulaikan Baginda Nabi Muhammad SAW.",
+      date: DateTime(2025, 12, 2),
     ),
   ];
 }
